@@ -57,7 +57,7 @@
 						<string>Ethernet</string>
 					</dict>
 
-                    <dict>
+      <dict>
                         <key>Action</key>
                         <string>Connect</string>
                         <key>SSIDMatch</key>
@@ -71,6 +71,13 @@
 <string>ShawPasspoint</string>
 
                         </array>
+
+                    </dict>
+
+                    <dict>
+                        <key>Action</key>
+                        <string>Connect</string>
+                 
 
 <key>ActionParameters</key>
 						<array>
