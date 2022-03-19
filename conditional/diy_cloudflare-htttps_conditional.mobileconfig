@@ -50,6 +50,13 @@
                         <string>Disconnect</string>
                     </dict>
 
+	<dict>
+						<key>Action</key>
+						<string>Connect</string>
+						<key>InterfaceTypeMatch</key>
+						<string>Ethernet</string>
+					</dict>
+
                     <dict>
                         <key>Action</key>
                         <string>Connect</string>
@@ -64,6 +71,34 @@
 <string>ShawPasspoint</string>
 
                         </array>
+
+<key>ActionParameters</key>
+						<array>
+						
+
+							<!-- Connect to VPN if needed for the listed URLs -->
+							<dict>
+								<key>Domains</key>
+								<array>
+									<string>shaw.ca</string>
+
+<string>wifi-registration.shaw.ca</string>
+
+<string>wifisignon.shaw.ca</string>
+
+<string>shawmobile.ca</string>
+
+<string>shawcentral.ca</string>
+
+<string>sjrb.ca</string>
+
+								</array>
+								<key>DomainAction</key>
+								<string>ConnectIfNeeded</string>
+							
+							</dict>
+						</array>
+
                     </dict>
                 </array>
             </dict>
